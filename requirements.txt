@@ -1,0 +1,5 @@
+streamlit
+moviepy
+edge-tts
+openai-whisper
+yt-dlp>=2024.08.06
