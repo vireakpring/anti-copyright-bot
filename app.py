@@ -107,7 +107,7 @@ def download_video_from_url(url: str, output_path: str):
         "color": "no_color",
         "nocheckcertificate": True,
         "geo_bypass": True,
-        "extractor_args": {"youtube": {"player_client": ["ios", "mweb"]}},
+        "extractor_args": {"youtube": {"player_client": ["mweb", "tvhtml5"]}},
         "http_headers": {
             "User-Agent": (
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
