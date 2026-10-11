@@ -1,5 +1,7 @@
-streamlit
-moviepy
-edge-tts
+streamlit>=1.38.0
 openai-whisper
-yt-dlp>=2024.08.06
+yt-dlp
+edge-tts
+moviepy==1.0.3
+ffmpeg-python
+torch
